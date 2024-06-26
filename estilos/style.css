@@ -73,6 +73,10 @@ input::placeholder{
     color: var(--cor-cinza-escuro);
 }
 
+.col-lg-2{
+    cursor: pointer;
+}
+
 /* TIRANDO A BORDA PADRAO QUE PUXA QUANDO OS INPUTS ESTAO PARA SER DIGITADOS */
 #inome:focus, #isenha:focus {
     outline: none;
@@ -120,6 +124,6 @@ footer > p {
 }
 
 footer > p > span {
-    font-weight: 800;
+    font-weight: 900;
     color: var(--cor-rosa);
 }
