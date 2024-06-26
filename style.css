@@ -18,9 +18,8 @@
 
 /* COLOCANDO IMAGEM DE FUNDO */
 body {
-    background-image: url(../imagens/Imagem_fundo.jpg);
+    background-image: url(./imagens/Imagem_fundo.jpg);
     background-size: contain;
-    background-color: #2C2C2E;
     background-position: center center;
 }
 
@@ -74,16 +73,9 @@ input::placeholder{
     color: var(--cor-cinza-escuro);
 }
 
-.col-lg-2{
-    cursor: pointer;
-}
-
 /* TIRANDO A BORDA PADRAO QUE PUXA QUANDO OS INPUTS ESTAO PARA SER DIGITADOS */
 #inome:focus, #isenha:focus {
     outline: none;
-    border: none;
-    box-shadow: none;
-    background-color: #ffffff00;
 }
 
 /* CONFIGURANDO O "LEMBRAR DE MIM" E "ESQUECEU SENHA" */
@@ -105,6 +97,7 @@ input::placeholder{
     font-family: "Jura", sans-serif;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--cor-rosa);
 }
 
 .botao-entrar:hover {
@@ -123,14 +116,10 @@ footer {
 footer > p {
     font-family: var(--font-Inter);
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-footer > p > a {
-    font-weight: 900;
+footer > p > span {
+    font-weight: 800;
     color: var(--cor-rosa);
-    text-decoration: none;
-}
-footer > p > a:hover {
-    color: black;
 }
