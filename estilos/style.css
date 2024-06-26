@@ -120,10 +120,14 @@ footer {
 footer > p {
     font-family: var(--font-Inter);
     margin-bottom: 0px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-footer > p > span {
+footer > p > a {
     font-weight: 900;
     color: var(--cor-rosa);
+    text-decoration: none;
+}
+footer > p > a:hover {
+    color: black;
 }
